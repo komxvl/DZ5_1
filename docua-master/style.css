@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #d1d1d1;
+    font-family: sans-serif;
+}
+.wrapper{
+    margin:20px auto; /* 60px 60px 10px 60px; */
+    background: #fff;
+    width:640px;
+}
+.header img{
+    width:100%;
+}
+.content{
+  margin:55px 50px 10px 50px; 
+}
+.info h4{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.products img{
+    width: 255px;
+    height: 215px;
+}
+.products .woman{
+    float:left;
+    width:255px;
+}
+.products .teeth{
+    float:right;
+    width:255px;
+}
+.woman p , .teeth p{
+    margin-top:20px;
+    margin-bottom: 40px;
+}
+.btn-send{
+   padding: 10px 80px;
+    background: #cf5b4e;
+    color: #fff;
+    border: none;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.list-products
+{
+    margin-top: 20px;
+}
+.list-items{
+    width: 160px;
+    float:left;
+    height:370px;
+}
+.list-items img{
+    width:160px;
+    margin-bottom:15px;
+}
+.list-items p{
+    height:100px;
+}
+.btn-send-small{
+    padding:10px 40px;
+    font-weight: bold;
+    color:#fff;
+    background: #cf5b4e;
+    border:none;
+    border-radius: 5px;
+}
+.wish{
+    margin-bottom: 30px;
+}
+.wish p{
+    margin-top:20px;
+}
+.btn-send-large{
+    padding:10px 175px;
+    color:#fff;
+     font-weight: bold;
+    color:#fff;
+    background: #cf5b4e;
+    border:none;
+    border-radius: 5px;
+    width:100%;
+    margin-bottom: 30px;
+}
+footer{
+    margin-top: 50px;
+        margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+footer p{
+    font-size: 12px;
+    margin-bottom:10px;
+}
+footer a{
+    color:#fff;
+    font-weight: bold;
+    font-size: 13px;
+}

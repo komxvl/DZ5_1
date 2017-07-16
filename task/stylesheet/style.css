@@ -1,0 +1,126 @@
+.first-image{
+    float:right;
+    /* float:left; */
+}
+
+.second-image{
+     /* float:right;*/
+     float:left; 
+}
+.parent {
+  width: 340px;
+  min-height: 20px;
+  background: #FF6600;
+}
+.rows {
+  width: 100px;
+  height: 100px;
+  background: #00F1FF;
+  margin: 5px;
+  float:left;
+}
+.second-parent{
+  width: 440px;
+  min-height: 20px;
+  background: #FF6600;
+}
+.main-block , .mains-block {
+  background-image: url(http://tutorial.promo.net.ua/images/js/setka3.png);
+  background-position: top left;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+.blue, .red, .yellow , .blues, .reds, .yellows  {
+  width: 100px;
+  height: 100px;
+}
+.blue {
+  background: blue;
+}
+.red {
+    background: red;
+    position: absolute;
+    left: 109px;
+}
+.yellow {
+    background: yellow;
+    position: absolute;
+    left: 209px;
+    top: 898px;
+}
+.blues {
+ position: absolute;
+    top: 1175px;
+    left: 150px;
+    z-index: 1;
+    background: blue;
+
+}
+.reds {
+   background: red;
+    position: absolute;
+    top: 1130px;
+    left: 100px;
+
+}
+.yellows {
+    background: yellow;
+    position: absolute;
+    top: 1225px;
+    left: 200px;
+    z-index: 1;
+}
+
+.main-block {
+  background-image: url(http://tutorial.promo.net.ua/images/js/setka3.png);
+  background-position: top left;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+.house {
+    width: 150px;
+    height: 150px;
+    background: coral;
+    position: absolute;
+    left: 70px;
+    top: 1550px;
+}
+.roof {
+        width: 0;
+    height: 0;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    border-bottom: 100px solid red;
+    position: absolute;
+    top: 1450px;
+    left: 35px;
+}
+.chimney {
+ width: 20px;
+    height: 60px;
+    background: black;
+    position: absolute;
+    top: 1460px;
+    left: 195px;
+}
+.door {
+   width: 60px;
+    height: 90px;
+    background: brown;
+    position: absolute;
+    top: 1610px;
+    left: 160px;
+    z-index: 1;
+}
+.window {
+       width: 40px;
+    height: 40px;
+    background: cyan;
+    position: absolute;
+    top: 1560px;
+    left: 90px;
+    z-index: 1;
+}
+  
