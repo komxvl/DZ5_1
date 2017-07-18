@@ -123,4 +123,37 @@
     left: 90px;
     z-index: 1;
 }
+.clearfix{
+    clear:both;
+}
+.google-material{
+    background: #80cdc6;
+    width: 700px;
+    height: 428px;
+    margin-top: 50px;
+}
+.first-img{
+     width: 395px;
+     position: absolute;
+     left: 270px;
+     top: 1770px;
+}
+.second-img{
+    position: absolute;
+    top: 1850px;
+    width: 490px;
+    left: 100px;
+    height: 340px;
+}
+.third-img{
+    position: absolute;
+    width: 130px;
+    top: 2025px;
+}
+.fourth-img{
+    position: absolute;
+    top: 2145px;
+    width: 700px;
+}
+
   

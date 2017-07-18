@@ -21,6 +21,12 @@ body{
     text-align: center;
     margin-bottom: 10px;
 }
+.info p{
+    margin-bottom: 35px;
+}
+.clearfix{
+    clear:both;
+}
 .products img{
     width: 255px;
     height: 215px;
@@ -61,6 +67,10 @@ body{
 }
 .list-items p{
     height:100px;
+}
+.first-items{
+    margin-right:25px;
+    margin-left:25px;
 }
 .btn-send-small{
     padding:10px 40px;
